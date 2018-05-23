@@ -7,10 +7,12 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "Engine.h"
-#import "Tire.h"
-#import "Slant6.h"
-#import "AllWeatherRadial.h"
+//#import "Engine.h"
+@class Engine;
+@class Tire;
+@class Slant6;
+@class AllWeatherRadial;
+
 @interface Car : NSObject
 {
     Engine *engine;

@@ -7,7 +7,10 @@
 //
 
 #import "Car.h"
-
+//#import "Engine.h"
+#import "Tire.h"
+#import "Slant6.h"
+#import "AllWeatherRadial.h"
 @implementation Car
 
 /*- (id)init

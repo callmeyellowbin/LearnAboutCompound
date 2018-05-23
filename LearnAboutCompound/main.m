@@ -9,7 +9,10 @@
 #import <UIKit/UIKit.h>
 #import "AppDelegate.h"
 #import "Car.h"
-
+#import "Engine.h"
+#import "Tire.h"
+#import "Slant6.h"
+#import "AllWeatherRadial.h"
 int main(int argc, char * argv[]) {
     Car *car = [Car new];
     //装引擎

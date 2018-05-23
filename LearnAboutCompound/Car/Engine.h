@@ -7,7 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Car.h"
+@class Car;
 @interface Engine : NSObject
 
 @end
