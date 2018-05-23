@@ -32,6 +32,19 @@ int main(int argc, char * argv[]) {
         NSLog(@"%@", [car tireAtIndex: i]);
     }
     
+    //换新引擎
+    Slant6 *slant = [Slant6 new];
+    [car setEngine: slant];
+    
+    //换新轮子
+    for (int i = 0; i < 4; i++) {
+        AllWeatherRadial *newTire = [AllWeatherRadial new];
+        NSLog(@"Setting tire No.%d", i);
+        [car setTire: newTire atIndex: i];
+    }
+    
+    //看效果
+    [car print];
     @autoreleasepool {
         return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
     }

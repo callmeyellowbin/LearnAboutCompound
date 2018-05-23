@@ -18,6 +18,8 @@
 		062F48CD20B501510008F3E1 /* Tire.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F48CC20B501510008F3E1 /* Tire.m */; };
 		062F48D020B501A20008F3E1 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F48CF20B501A20008F3E1 /* Engine.m */; };
 		062F48D320B5035A0008F3E1 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F48D220B5035A0008F3E1 /* Car.m */; };
+		062F48D720B514D90008F3E1 /* Slant6.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F48D620B514D90008F3E1 /* Slant6.m */; };
+		062F48DA20B5152F0008F3E1 /* AllWeatherRadial.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F48D920B5152F0008F3E1 /* AllWeatherRadial.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,10 @@
 		062F48CF20B501A20008F3E1 /* Engine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
 		062F48D120B5035A0008F3E1 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
 		062F48D220B5035A0008F3E1 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
+		062F48D520B514D90008F3E1 /* Slant6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Slant6.h; sourceTree = "<group>"; };
+		062F48D620B514D90008F3E1 /* Slant6.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Slant6.m; sourceTree = "<group>"; };
+		062F48D820B5152F0008F3E1 /* AllWeatherRadial.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AllWeatherRadial.h; sourceTree = "<group>"; };
+		062F48D920B5152F0008F3E1 /* AllWeatherRadial.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AllWeatherRadial.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +157,10 @@
 				062F48CC20B501510008F3E1 /* Tire.m */,
 				062F48D120B5035A0008F3E1 /* Car.h */,
 				062F48D220B5035A0008F3E1 /* Car.m */,
+				062F48D520B514D90008F3E1 /* Slant6.h */,
+				062F48D620B514D90008F3E1 /* Slant6.m */,
+				062F48D820B5152F0008F3E1 /* AllWeatherRadial.h */,
+				062F48D920B5152F0008F3E1 /* AllWeatherRadial.m */,
 			);
 			path = Car;
 			sourceTree = "<group>";
@@ -291,7 +301,9 @@
 				062F48D320B5035A0008F3E1 /* Car.m in Sources */,
 				062F489E20B4FD8C0008F3E1 /* ViewController.m in Sources */,
 				062F48CD20B501510008F3E1 /* Tire.m in Sources */,
+				062F48DA20B5152F0008F3E1 /* AllWeatherRadial.m in Sources */,
 				062F48A920B4FD8C0008F3E1 /* main.m in Sources */,
+				062F48D720B514D90008F3E1 /* Slant6.m in Sources */,
 				062F489B20B4FD8C0008F3E1 /* AppDelegate.m in Sources */,
 				062F48D020B501A20008F3E1 /* Engine.m in Sources */,
 			);

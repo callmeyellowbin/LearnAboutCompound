@@ -9,7 +9,8 @@
 #import <Foundation/Foundation.h>
 #import "Engine.h"
 #import "Tire.h"
-
+#import "Slant6.h"
+#import "AllWeatherRadial.h"
 @interface Car : NSObject
 {
     Engine *engine;
