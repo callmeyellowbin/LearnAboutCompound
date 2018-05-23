@@ -15,6 +15,9 @@
 		062F48A920B4FD8C0008F3E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F48A820B4FD8C0008F3E1 /* main.m */; };
 		062F48B320B4FD8C0008F3E1 /* LearnAboutCompoundTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F48B220B4FD8C0008F3E1 /* LearnAboutCompoundTests.m */; };
 		062F48BE20B4FD8C0008F3E1 /* LearnAboutCompoundUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F48BD20B4FD8C0008F3E1 /* LearnAboutCompoundUITests.m */; };
+		062F48CD20B501510008F3E1 /* Tire.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F48CC20B501510008F3E1 /* Tire.m */; };
+		062F48D020B501A20008F3E1 /* Engine.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F48CF20B501A20008F3E1 /* Engine.m */; };
+		062F48D320B5035A0008F3E1 /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 062F48D220B5035A0008F3E1 /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,12 @@
 		062F48B920B4FD8C0008F3E1 /* LearnAboutCompoundUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnAboutCompoundUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		062F48BD20B4FD8C0008F3E1 /* LearnAboutCompoundUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LearnAboutCompoundUITests.m; sourceTree = "<group>"; };
 		062F48BF20B4FD8C0008F3E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		062F48CB20B501510008F3E1 /* Tire.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Tire.h; sourceTree = "<group>"; };
+		062F48CC20B501510008F3E1 /* Tire.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tire.m; sourceTree = "<group>"; };
+		062F48CE20B501A20008F3E1 /* Engine.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Engine.h; sourceTree = "<group>"; };
+		062F48CF20B501A20008F3E1 /* Engine.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Engine.m; sourceTree = "<group>"; };
+		062F48D120B5035A0008F3E1 /* Car.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		062F48D220B5035A0008F3E1 /* Car.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +110,7 @@
 		062F489820B4FD8C0008F3E1 /* LearnAboutCompound */ = {
 			isa = PBXGroup;
 			children = (
+				062F48D420B503660008F3E1 /* Car */,
 				062F489920B4FD8C0008F3E1 /* AppDelegate.h */,
 				062F489A20B4FD8C0008F3E1 /* AppDelegate.m */,
 				062F489C20B4FD8C0008F3E1 /* ViewController.h */,
@@ -130,6 +140,19 @@
 				062F48BF20B4FD8C0008F3E1 /* Info.plist */,
 			);
 			path = LearnAboutCompoundUITests;
+			sourceTree = "<group>";
+		};
+		062F48D420B503660008F3E1 /* Car */ = {
+			isa = PBXGroup;
+			children = (
+				062F48CE20B501A20008F3E1 /* Engine.h */,
+				062F48CF20B501A20008F3E1 /* Engine.m */,
+				062F48CB20B501510008F3E1 /* Tire.h */,
+				062F48CC20B501510008F3E1 /* Tire.m */,
+				062F48D120B5035A0008F3E1 /* Car.h */,
+				062F48D220B5035A0008F3E1 /* Car.m */,
+			);
+			path = Car;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				062F48D320B5035A0008F3E1 /* Car.m in Sources */,
 				062F489E20B4FD8C0008F3E1 /* ViewController.m in Sources */,
+				062F48CD20B501510008F3E1 /* Tire.m in Sources */,
 				062F48A920B4FD8C0008F3E1 /* main.m in Sources */,
 				062F489B20B4FD8C0008F3E1 /* AppDelegate.m in Sources */,
+				062F48D020B501A20008F3E1 /* Engine.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
